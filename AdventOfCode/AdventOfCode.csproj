@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>AdventOfCode.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -45,6 +48,10 @@
   <ItemGroup>
     <Compile Include="Event2016\Day01.cs" />
     <Compile Include="Event2016\Day02.cs" />
+    <Compile Include="Event2016\Day03.cs" />
+    <Compile Include="Event2016\Day04.cs" />
+    <Compile Include="Event2016\Day05.cs" />
+    <Compile Include="Event2016\Day06.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
