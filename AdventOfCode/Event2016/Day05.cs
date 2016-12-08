@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AdventOfCode.Event2016
 {
-    class Day05
+    class Day05 : IDay
     {
         private static string input = @"ffykfhsq";
         private static string test = @"abc";
@@ -57,6 +57,7 @@ namespace AdventOfCode.Event2016
             Random rand = new Random();
             char[] lookup = { '0','1','2','3','4','5','6','7','8','9', 'a','b','c','d','e','f'};
             Console.CursorVisible = false;
+            Console.Clear();
 
             while (password.Any(char.MaxValue.Equals))
             {

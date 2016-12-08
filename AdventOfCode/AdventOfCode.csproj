@@ -52,6 +52,7 @@
     <Compile Include="Event2016\Day04.cs" />
     <Compile Include="Event2016\Day05.cs" />
     <Compile Include="Event2016\Day06.cs" />
+    <Compile Include="Event2016\IDay.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
